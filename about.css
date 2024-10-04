@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:rgb(237, 237, 237);
+    position:sticky;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+header .start_nav a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+header .middle_nav nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+
+}
+.end_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.end_nav .btn{
+    padding:10px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn button{
+    border: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.latestp{
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.5rem;
+    padding-bottom: 2px;
+    padding-top: 15px;
+}
+.container{
+
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+.container p{
+    padding: 2% 10%;
+    font-size: 1rem;
+}
+h1,h2{
+    text-align: center;
+}
+h1{
+    margin-bottom: 20px;
+}
+h2{
+    padding-top: 10px;
+    font-size: 1.8rem;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    padding: 0px 30px;
+}
+
+.card {
+    border: 1px lightgrey solid;
+    border-radius: 20px;
+    width: 190px; 
+    margin: 10px; 
+    text-align: center; 
+    background-color: #fefefe;
+    
+}
+
+.card figure {
+    margin: 0;
+}
+
+.card img {
+    width: 100%; 
+    height: 200px; 
+    padding: 10px;
+}
+
+#heart{
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:rgb(237, 237, 237);
+    position:sticky;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+header .start_nav a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+header .middle_nav nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+
+}
+.end_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.end_nav .btn{
+    padding:10px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn button{
+    border: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+.latestp{
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.5rem;
+    padding-bottom: 2px;
+    padding-top: 15px;
+}
+/* --------------- Contact-------------------------------- */
+
+.container label{
+    font-weight: 600;
+}
+.container form{
+    margin-left: 35%;
+}
+.container input{
+    width: 45%;
+}
+.container textarea{
+    width: 45%;
+}
+.container button{
+    padding: 5px 15px;
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+    margin-left: 140px;
+    font-weight: 600;
+    border: none;
+    color: white;
+}
+
+#heart{
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 60px 0px;
+}
+
